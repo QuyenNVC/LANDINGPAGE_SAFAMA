@@ -1,0 +1,15 @@
+.button_primary {
+  border-radius: 500px;
+  font-weight: bold;
+  font-size: 16px;
+  color: $primary_color;
+  text-align: center;
+  padding: 13px 18px;
+  margin-bottom: 0;
+  background: #f0e6dd;
+  border: 1px solid #f0e6dd;
+  &:hover {
+    background: transparent;
+    border: 1px solid $primary_color;
+  }
+}
